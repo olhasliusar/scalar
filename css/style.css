@@ -557,9 +557,8 @@ h3{
 }
 .social-network__square:hover{
 	background: #F06862;
-	color: #FFF;
 }
-.social-network__square:hover .social-network__square:after{
+.social-network__square:hover:after{
 	color: #FFF;
 }
 .ba-footer__rights{
