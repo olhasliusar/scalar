@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-	<title>Start</title>
+	<title>Scalar</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -11,6 +11,7 @@
 	<link rel="icon" href="favicon.png"/>
 	<link rel="stylesheet" href="css/normalize.css" />
 	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css" />
 
 	<!--[if lt IE 9]>
@@ -20,13 +21,196 @@
 </head>
 <body>
 	<header class="ba-header">
-
+		<div class="ba-container-center">
+			<h1><a class="ba-header__logo" href="#">scalar</a></h1>
+			<nav role="navigation">
+				<ul class="ba-main-menu">
+					<li><a class="ba-main-menu__active" href="#">home</a></li>
+					<li class="ba-main-menu__opener">
+						<a  href="#">page layouts</a>
+						<ul class="ba-main-menu__opener__dropdown-menu">
+							<li><a href="#">left sidebar</a></li>
+							<li><a href="#">right sidebar</a></li>
+							<li><a href="#">no sidebar</a></li>
+							<li><a href="#">contact</a></li>
+							<li class="ba-open-submenu">
+								<a href="#">submenu</a>
+								<ul class="ba-main-menu__opener__dropdown-menu__submenu">
+									<li><a href="#">option one</a></li>
+									<li><a href="#">option two</a></li>
+									<li><a href="#">option three</a></li>
+									<li><a href="#">option four</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#">elements</a></li>
+				</ul>
+			</nav>
+		</div>
 	</header>
 	<main role="main">
+		<section class="ba-banner">
+			<div class="ba-container-center">
+				<h2 class="ba-banner__header">DONEC AMET SED<br>EGET FELIS FACILISIS</h2>
+				<p class="ba-banner__content">MORBI IN SEM QUIS DUI PLAC VIVA<br>ERAT ORNARE CONSEQUAT</p>
+				<a class="ba-banner__button" href="#">read more > </a>
+			</div>
+		</section>
+
+		<section class="ba-section-one">
+			<div class="ba-grid ba-grid-nopad">
+				<div class="ba-width-1-2 ba-left-side">
+					<div class="ba-container-center--left">
+						<h2 class="ba-left-side__header">VULTRICIES NULLA</h2>
+						<p class="ba-left-side__content">Pellentesque fermentum dolor. Aliquam quam lectus, facilisis et auctor ultrices ut, elementum vulputate Pellentesque fermentum dolor. Aliquam quam lectus, facilisis aucto vulputate consequat pellentesque mauris ut lectus. Nunc tellus ante lorem ipsum dolor. Phasellus lacinia, magna a ullamcorper.</p>
+						<a class="ba-left-side__button" href="#">acticeno</a>
+					</div>
+				</div>
+				<div class="ba-width-1-2 ba-right-side">
+					<div class="ba-right-side__vestibulum-auct">
+						<div class="ba-container-center--right">
+						<h3 class="ba-right-side__header">VESTIBULUM AUCT</h3>
+							<p class="ba-right-side__content">Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet lorem ipsum.</p>
+						</div>
+					</div>
+					<div class="ba-right-side__iultricies-nulla">
+						<div class="ba-container-center--right">
+							<h3 class="ba-right-side__header">IULTRICIES NULLA</h3>
+							<p class="ba-right-side__content">Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc lorem ipsum dolor sit amet vivamus laoreet feugiat.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="ba-section-two">
+			<div class="ba-container-center">
+				<div class="ba-section-two__img-wrapper"><img class="ba-section-two__img ba-float-left" src="img/pic01.jpg" alt="nature"></div>
+				<div class="ba-section-two__column-second">
+					<h2 class="ba-section-two__header--2">FUSCE LOBORTIS LOREM AT<br>IPSUM SEMPER MAGNA</h2>
+					<h3 class="ba-section-two__header--3">PRAESENT PLACERAT RISUS QUI</h3>
+					<p class="ba-section-two__content">Citae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus. Nunc tellus ante lorem ipsum dolor sit amet consequat. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit orci lorem ipsum dolor sit amet veroeros tempus. Nunc tellus ante lorem ipsum dolor sit amet consequat.</p>
+					<a class="ba-section-two__button" href="#">magna etiam</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="ba-section-three">
+			<div class="ba-container-center">
+				<h2 class="ba-section-three__header--2">ALIQUAM PORTA</h2>
+				<h3 class="ba-section-three__header--3">
+				PELLENTESQUE FERMENTUM DOLOR ALIQUAM QUAM LECTUS FACILISIS DOLORE</h3>
+				<div class="ba-grid ba-grid-nopad">
+					<div class="ba-width-1-3 ba-section-three__column">
+						<span class="square-major square-major__camera"></span>
+						<h3 class="ba-section-three__column__header--3">CRAS IACULIS</h3>
+						<p class="ba-section-three__column__content
+						ba-section-three__column__content--1">Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit orci. Aenean dignissim.</p>
+					</div>
+					<div class="ba-width-1-3 ba-section-three__column">
+						<span class="square-major square-major__cup"></span>
+						<h3 class="ba-section-three__column__header--3">FUSCE PELLENT</h3>
+						<p class="ba-section-three__column__content
+						ba-section-three__column__content--2">Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit orci. Aenean dignissim.</p>
+					</div>
+					<div class="ba-width-1-3 ba-section-three__column">
+						<span class="square-major square-major__camera"></span>
+						<h3 class="ba-section-three__column__header--3">CRAS IACULIS</h3>
+						<p class="ba-section-three__column__content
+							ba-section-three__column__content--3">Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit orci. Aenean dignissim.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="ba-section-four">
+			<div class="ba-container-center">
+				<h2 class="ba-section-four__header--2">
+					MORBI INTERDUM MOLLIS SED<br>PHASELLUS LACINIA</h2>
+				<div class="ba-grid">
+					<div class="ba-width-1-3 ba-reviews">
+						<p class="ba-reviews__content">
+							Sed et liquam porttitor mauris sit orcintio enean magna amet consequat lorem ipsum dolor sit amet!
+						</p>
+						<img src="img/avatar.png" alt="avatar" class="ba-reviews__avatar__img">
+						<p class="ba-reviews__name">Jane Doe</p>
+						<p class="ba-reviews__name ba-reviews__title">CEO</p>
+					</div>
+					<div class="ba-width-1-3 ba-reviews">
+						<p class="ba-reviews__content">
+							Sed et liquam porttitor mauris sit orcintio enean magna amet consequat lorem ipsum dolor sit amet!
+						</p>
+						<img src="img/avatar.png" alt="avatar" class="ba-reviews__avatar__img">
+						<p class="ba-reviews__name">Jane Doe</p>
+						<p class="ba-reviews__name ba-reviews__title">CEO</p>
+					</div>
+					<div class="ba-width-1-3 ba-reviews">
+						<p class="ba-reviews__content">
+							Sed et liquam porttitor mauris sit orcintio enean magna amet consequat lorem ipsum dolor sit amet!
+						</p>
+						<img src="img/avatar.png" alt="avatar" class="ba-reviews__avatar__img">
+						<p class="ba-reviews__name">Jane Doe</p>
+						<p class="ba-reviews__name ba-reviews__title">CEO</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="ba-section-five">
+			<div class="ba-grid ba-grid-nopad">
+				<div class="ba-width-1-2">
+					<div class="ba-container-center--left">
+						<h3 class="ba-section-five__header icon-cog">LOREM ET IPSUM</h3>
+						<p class="ba-section-five__content">Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu etiam magna risus vitae lorem ipsum dolor etiam.</p>
+					</div>
+				</div>
+				<div class="ba-width-1-2">
+					<div class="ba-container-center--right">
+						<h3 class="ba-section-five__header icon-desktop">FUSCE PELLENTES</h3>
+						<p class="ba-section-five__content">Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu etiam magna risus vitae lorem ipsum dolor etiam.</p>
+					</div>
+				</div>
+			</div>
+			<div class="ba-grid ba-grid-nopad">
+				<div class="ba-width-1-2">
+					<div class="ba-container-center--left">
+						<h3 class="ba-section-five__header icon-briefcase">VESTIBULUM COMMOD</h3>
+						<p class="ba-section-five__content">Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu etiam magna risus vitae lorem ipsum dolor etiam.</p>
+					</div>
+				</div>
+				<div class="ba-width-1-2">
+					<div class="ba-container-center--right">
+						<h3 class="ba-section-five__header icon-paper-plane">NULLA ADIPISCING</h3>
+						<p class="ba-section-five__content">Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu etiam magna risus vitae lorem ipsum dolor etiam.</p>
+					</div>
+				</div>
+			</div>
+			<div class="ba-grid ba-grid-nopad">
+				<div class="ba-width-1-2">
+					<div class="ba-container-center--left">
+						<h3 class="ba-section-five__header icon-bar-chart">UT ALIQUAM SOLLICITU</h3>
+						<p class="ba-section-five__content">Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu etiam magna risus vitae lorem ipsum dolor etiam.</p>
+					</div>
+				</div>
+				<div class="ba-width-1-2">
+					<div class="ba-container-center--right">
+						<h3 class="ba-section-five__header icon-tag">CRAS IACULIS ULTRI</h3>
+						<p class="ba-section-five__content">Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu etiam magna risus vitae lorem ipsum dolor etiam.</p>
+					</div>
+				</div>
+			</div>
+		</section>
 
 	</main>
 	<footer class="ba-footer">
-
+		<ul class="social-network ba-container-center">
+			<li class="square square-facebook"></li>
+			<li class="square square-twitter"></li>
+			<li class="square square-email"></li>
+		</ul>
+		<p class="ba-footer__rights">© Untitled. All rights reserved.</p>
 	</footer>
 </body>
 </html>
