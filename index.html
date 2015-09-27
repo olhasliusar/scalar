@@ -27,7 +27,7 @@
 				<ul class="ba-main-menu">
 					<li><a class="ba-main-menu__active" href="#">home</a></li>
 					<li class="ba-main-menu__opener">
-						<a  href="#">page layouts</a>
+						<a href="#">page layouts</a>
 						<ul class="ba-main-menu__opener__dropdown-menu">
 							<li><a href="#">left sidebar</a></li>
 							<li><a href="#">right sidebar</a></li>
@@ -86,7 +86,9 @@
 
 		<section class="ba-section-two">
 			<div class="ba-container-center">
-				<div class="ba-section-two__img-wrapper"><img class="ba-section-two__img ba-float-left" src="img/pic01.jpg" alt="nature"></div>
+				<div class="ba-section-two__img-wrapper ba-float-left">
+					<img class="ba-section-two__img" src="img/pic01.jpg" alt="nature">
+				</div>
 				<div class="ba-section-two__column-second">
 					<h2 class="ba-section-two__header--2">FUSCE LOBORTIS LOREM AT<br>IPSUM SEMPER MAGNA</h2>
 					<h3 class="ba-section-two__header--3">PRAESENT PLACERAT RISUS QUI</h3>
@@ -206,9 +208,15 @@
 	</main>
 	<footer class="ba-footer">
 		<ul class="social-network ba-container-center">
-			<li class="square square-facebook"></li>
-			<li class="square square-twitter"></li>
-			<li class="square square-email"></li>
+			<li>
+				<a class="social-network__square social-network__square-facebook" href="#"></a>
+			</li>
+			<li>
+				<a class="social-network__square social-network__square-twitter" href="#"></a>
+			</li>
+			<li>
+				<a class="social-network__square social-network__square-email" href="#"></a>
+			</li>
 		</ul>
 		<p class="ba-footer__rights">© Untitled. All rights reserved.</p>
 	</footer>
