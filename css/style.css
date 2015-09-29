@@ -62,7 +62,6 @@ h3{
 }
 .ba-container-center--right{
 	width: 480px;
-	float: left;
 }
 .ba-header{
 	background-color: #7F7E93;
@@ -172,7 +171,7 @@ h3{
 	background: #ccc url(../img/banner.jpg) 50% no-repeat;
 	background-size: cover;
 	color: #FFF;
-	height: 80vh;
+	height: 80vh; /*435px;*/
 	font-weight: 700;
 	margin-top: 50px;
 }
@@ -239,27 +238,28 @@ h3{
 .ba-section-two{
 	background: #F5F5F5;
 }
-.ba-section-two__img{
-    background: #ffffff;
-    border-radius: 0.5em;
-    border: 2em solid #ffffff;
-    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.125);
-    margin-top: 4em;
-    width: 374px;
-}
 
 .ba-section-two__img-wrapper{
-	position: relative;
+	background: #ffffff;
+	border-radius: 0.5em;
+	box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.125);
+    margin-top: 4em;
+    width: 374px;
+    padding: 2em;
+    position: relative;
 }
-
-.ba-section-two__img:after {
+.ba-section-two__img{
+	position: relative;
+	top:50%
+	left: 50%;
+}
+.ba-section-two__img-wrapper:after {
     content: '';
     background: #F0F0F0;
-    background: red;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     position: absolute;
-    top: 0;
+    top: 50%;
     right: 7px;
     width: 13px;
     height: 13px;
